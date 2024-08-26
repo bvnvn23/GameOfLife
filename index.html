@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+    <title>GameOfLife</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Game of Life</h1>
+        <p class="message">Enter size of columns and rows to start the game!</p>
+            <div class="grid">
+                <div class="cell"></div>
+            </div>
+    
+        <div class="menu">
+            <input type="number" id="column" placeholder="Columns">
+            <input type="number" id="row" placeholder="Rows">
+
+            <button class="start">Start</button>
+            <button class="stop">Stop</button>
+            <button class="random">Random</button>
+            <button class="clear">Clear</button>
+        </div>
+    </div>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>

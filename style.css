@@ -1,0 +1,58 @@
+body {
+    background-color: #ceebcc; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 150; 
+}
+
+
+.header {
+    font-weight: 700;
+}
+
+.message, 
+.menu input, 
+.menu button {
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#column, 
+#row {
+    background-color: #a1bd9e;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+}
+
+button {
+    background-color: #a1bd9e;
+    height: auto;
+    width: 60px;
+    border: none;
+    border-radius: 20px;
+}
+
+.grid {
+    display: grid;
+    gap: 1px;
+    border: 1px solid lightgray;
+}
+
+.cell {
+    background-color: lightgray;
+    width: 20px;
+    height: 20px;
+}
